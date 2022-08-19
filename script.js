@@ -44,11 +44,6 @@ function handleButtonClick() {
 
     imcResult.textContent = formattedImc;
     peso.textContent = faixaPeso(pesoResult);
-
-    console.log(typeof(pesoResult));
-    console.log(pesoResult);
-    console.log(faixaPeso(30.8));
-    console.log(faixaPeso(pesoResult));
 }
 
 start();
