@@ -74,3 +74,15 @@ body {
     font-size: 10px;
     color: #82c0af;
 }
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column-reverse;
+    }
+    .calculadora{
+        width: 90%;
+    }
+    .illustration{
+        width: 90%;
+    }
+}
